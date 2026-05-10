@@ -1,0 +1,23 @@
+<script src="script.js"></script>
+<link rel="stylesheet" href="style.css">
+<div class="math-card">
+    <h2>matematika</h2>
+    <p id="question">Berapa hasil dari 15 + 7?</p>
+    <input type="number" id="userAnswer" placeholder="Jawaban kamu...">
+    <button onclick="checkAnswer()">Cek Jawaban</button>
+    <p id="feedback"></p>
+</div>
+
+<script>
+        // Tempel kode JavaScript kamu di sini
+        function cek() {
+            const input = document.getElementById('ans').value;
+            if(input == 48) {
+                alert('Hebat! Jawaban Benar.');
+            } else {
+                alert('Coba lagi ya!');
+            }
+        }
+    </script>
+</body>
+</html>
